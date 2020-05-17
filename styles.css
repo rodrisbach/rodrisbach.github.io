@@ -1,0 +1,36 @@
+p {
+    color: white;
+    font-family: Comfortaa;
+}
+body {
+    background-color: black;
+}
+.split {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.left {
+    z-index: 2;
+    float: left;
+    width: 92%;
+    height: 75%;
+}
+.right {
+    z-index: 2;
+    float: left;
+    width: 7%;
+    height: 75%;
+    border-left-color:white;
+    border-left-style: outset;
+    border-left-width: 1px;
+    padding-left: 10px;
+}
+.head {
+    width: 100%;
+   height: 50px;
+    color: white;
+    font-family: Comfortaa;
+
+}
